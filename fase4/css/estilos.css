@@ -1,0 +1,40 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: auto;
+    color: black;
+    background-color: #F0EBE3;
+
+}
+nav{
+    background-color: aqua;
+
+}
+section{
+    grid-column: 1/4;
+    background-color: #E4DCCF;
+
+}
+aside{
+    grid-column: 4/5;
+    background-color: #7D9D9C;
+    justify-content: space-around;
+
+}
+footer{
+    background-color: #576F72;
+
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.menu{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
